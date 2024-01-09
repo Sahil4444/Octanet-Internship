@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+}
+
+#header {
+  height: 755px;
+  color: #fff;
+  background-image: url("./assets/3.jpg");
+  background-blend-mode: screen;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  padding-left: 70px;
+  padding-top: 110px;
+}
+
+#header h1{
+    font-size: 100px;
+}
+
+#header p{
+    padding-left: 20px;
+}
+
+/* .bd-cont{
+    color: #fff;
+} */
+.bd-cont .container, section{
+  /* border: 1px solid #fff; */
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.bd-cont .container .c-btn i{
+  font-size: 50px;
+  color: #000;
+}
+
+.bd-cont .container .c-btn i:hover{
+  cursor: pointer;
+}
